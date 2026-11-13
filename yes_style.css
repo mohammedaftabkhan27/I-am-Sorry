@@ -1,0 +1,42 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.header_text {
+    font-family: 'Borel', cursive;
+    color: cornsilk;
+    font-size: 32px;
+    line-height: 1.8;
+}
+
+.gif_container img {
+    width: 280px;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .header_text {
+        font-size: 22px;
+    }
+
+    .gif_container img {
+        width: 220px;
+    }
+}
